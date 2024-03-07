@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var message = "Hello World"
+        console.log(message);
+
+        // Data types
+
+        // a.Primitive data types
+        // 1.String
+        // 2.Number
+        // 3.Boolean
+        // 4.Undefined
+        // 5.null6.symbol
+        // 7.bigint
+
+
+        // b.Reference data types
+
+
+        // number
+
+        var agee = 24;
+        console.log(agee);
+
+        // boolean
+
+        var havefriend = true;
+        console.log(havefriend);
+
+        // undefined
+        var willmarry;
+        console.log(willmarry);
+
+
+        // null
+        var child = null;
+        console.log(child);
+
+
+        var myName = "chetan";
+        var name = `Bangalore ${myName} ${message} ${2*5}`;
+        console.log(name);
+
+
+        var num = 25;
+        var str =  '25';
+
+        if(num==str){
+            console.log("Both are equal")
+        }
+        else{
+            console.log("Both are not equal")
+        }
+
+
+        
+// let age=23;
+// if(age>=18){
+//    console.log("people are eligible for vote");
+// }
+// else{
+//    console.log("false");
+// }
+
+// let per = 100;
+// (per>=18)?console.log("eligible for vote") : console.log("not eligible");
+
+// var myAge=24;
+// myAge>=18?console.log("eligible for vote") : console.log("not eligible for vote");
+
+//     var per = 100
+//     //typeof(per)  //number , string, boolean, undefined, object
+//     if(per<0 || per>100 || typeof(per)!=="number" || isNaN(per)===true){
+//         console.log("invalid");
+//     }
+//     else if(per>= 70 && per <= 100){
+//         console.log("FCD");
+//     }
+//     else if(per>= 60 && per <= 70){
+//         console.log("First Class");
+//     }
+//     else if(per>= 35 && per <= 60){
+//         console.log("Pass");
+//     }
+//     else{
+//         console.log("Fail");
+//     }
+
+
+    // using ternary operator
+
+    var per = 60;
+    per>=70 && per<=100? console.log("FCD"):
+    per>=60 && per<=70? console.log("First Class"):
+    per<=35 && per<=0 ?console.log("Pass"):
+    console.log("fail");
+
+
+    </script>
+    
+</body>
+</html>
